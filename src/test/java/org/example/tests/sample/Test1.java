@@ -1,4 +1,4 @@
-package org.example;
+package org.example.tests.sample;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -13,6 +13,7 @@ public class Test1 {
         edgeOptions.addArguments("--incognito");
         EdgeDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://votermood.com/");
+        //test comments also need to check
 
     }
 }
